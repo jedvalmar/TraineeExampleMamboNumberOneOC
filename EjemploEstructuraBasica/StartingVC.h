@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface StartingVC : UIViewController
+@property(nonatomic, assign) IBOutlet UIButton * aButton;
+
+-(IBAction)onPuchon:(UIButton *)sender;
 
 @end

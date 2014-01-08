@@ -20,6 +20,7 @@
 		1F302F45187CCE9C00EC2BB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F302F27187CCE9B00EC2BB6 /* UIKit.framework */; };
 		1F302F4D187CCE9C00EC2BB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F302F4B187CCE9C00EC2BB6 /* InfoPlist.strings */; };
 		1F302F4F187CCE9C00EC2BB6 /* EjemploEstructuraBasicaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F302F4E187CCE9C00EC2BB6 /* EjemploEstructuraBasicaTests.m */; };
+		1F302F5B187CD8E900EC2BB6 /* StartingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F302F5A187CD8E900EC2BB6 /* StartingVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1F302F4A187CCE9C00EC2BB6 /* EjemploEstructuraBasicaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjemploEstructuraBasicaTests-Info.plist"; sourceTree = "<group>"; };
 		1F302F4C187CCE9C00EC2BB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F302F4E187CCE9C00EC2BB6 /* EjemploEstructuraBasicaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjemploEstructuraBasicaTests.m; sourceTree = "<group>"; };
+		1F302F5A187CD8E900EC2BB6 /* StartingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartingVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +112,9 @@
 		1F302F29187CCE9B00EC2BB6 /* EjemploEstructuraBasica */ = {
 			isa = PBXGroup;
 			children = (
+				1F302F58187CD7F600EC2BB6 /* Interfaces */,
 				1F302F32187CCE9B00EC2BB6 /* AppDelegate.h */,
 				1F302F33187CCE9B00EC2BB6 /* AppDelegate.m */,
-				1F302F38187CCE9B00EC2BB6 /* StartingVC.h */,
-				1F302F39187CCE9B00EC2BB6 /* StartingVC.m */,
 				1F302F3B187CCE9C00EC2BB6 /* Images.xcassets */,
 				1F302F2A187CCE9B00EC2BB6 /* Supporting Files */,
 			);
@@ -147,6 +148,24 @@
 				1F302F4B187CCE9C00EC2BB6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F302F58187CD7F600EC2BB6 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				1F302F59187CD81C00EC2BB6 /* StartInterface */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		1F302F59187CD81C00EC2BB6 /* StartInterface */ = {
+			isa = PBXGroup;
+			children = (
+				1F302F38187CCE9B00EC2BB6 /* StartingVC.h */,
+				1F302F39187CCE9B00EC2BB6 /* StartingVC.m */,
+				1F302F5A187CD8E900EC2BB6 /* StartingVC.xib */,
+			);
+			name = StartInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +246,7 @@
 			files = (
 				1F302F3C187CCE9C00EC2BB6 /* Images.xcassets in Resources */,
 				1F302F2E187CCE9B00EC2BB6 /* InfoPlist.strings in Resources */,
+				1F302F5B187CD8E900EC2BB6 /* StartingVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +468,7 @@
 				1F302F54187CCE9C00EC2BB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F302F55187CCE9C00EC2BB6 /* Build configuration list for PBXNativeTarget "EjemploEstructuraBasicaTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +477,7 @@
 				1F302F57187CCE9C00EC2BB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
