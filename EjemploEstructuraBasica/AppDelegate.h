@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StartingVC.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
